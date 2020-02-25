@@ -1,0 +1,4 @@
+.what-when {
+    display: flex;
+    justify-content: space-between;
+}

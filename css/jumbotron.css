@@ -1,0 +1,59 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+body {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.navbar {
+    background-color: #212529!important;
+}
+
+.jumbotron {
+    background-image: linear-gradient(to top right, rgb(179, 99, 9) , #900D15);
+    display: flex;
+}
+
+.btn-primary {
+    background-color: rgb(0, 23, 20);
+}
+
+.nav-btn {
+    margin: 10px;
+    padding: 8px 5px 10px 5px !important;
+}
+
+.btn-active {
+    background-color: #17191b;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px #575757,  
+    -5px -5px 10px #000000;
+    background-image: linear-gradient(to top left, rgb(145, 80, 7) , #900D15);
+}
+
+.nav-btn:hover {
+    background-color: #17191b;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px #575757,  
+    -5px -5px 10px #000000;
+}
+
+.nav-btn:active {
+    background-image: linear-gradient(to top left, rgb(44, 25, 3) , rgb(49, 1, 4));
+}
+
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-image: linear-gradient(to top, #b1b1b1 , rgb(255, 255, 255));
+    color:#900D15;
+}
+
+.footer-container p {
+    text-align: center;
+    margin: 8px 0;
+}
+

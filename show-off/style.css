@@ -1,0 +1,150 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-image: url(weather-bk-img.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+.big-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.go-back {
+    padding: 10px 5px;
+     align-self: center;
+    color: #0F1E25;
+    background-color: #D6EA93;
+    border: none;
+    font-size: 30px;
+    border-radius: 15%;
+    text-decoration: none;
+    margin-right: 250px;
+}
+
+.go-back:hover {
+    background-color: rgb(214, 235, 148);
+    box-shadow:  -5px -5px 20px rgb(224, 238, 179),  
+                5px 5px 20px rgb(104, 119, 57);
+}
+
+.go-back:active {
+    background-color: rgb(196, 196, 196);
+    box-shadow:  -5px -5px 20px rgb(224, 238, 179),  
+                5px 5px 20px rgb(104, 119, 57);
+}
+
+.goBack:hover {
+    background-color: #599E71;
+}
+
+.goBack:active {
+    background-color: rgb(53, 94, 67);
+}
+
+.container {
+    width: 300px;
+    background-color: #C8E690;
+    border-radius: 52px;
+    padding-bottom: 50px;
+    margin-left: 30%;
+}
+
+.app-title {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+}
+
+.app-title p {
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #3b0303;
+}
+
+.notification {
+    background-color: #f7e8e9;
+    display: none;
+}
+
+.notification p {
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container {
+    width: 300px;
+    height: 260px;
+    background-color: #C8E690;
+}
+
+.weather-icon {
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.temperature-value {
+    width: 300px;
+    height: 60px;
+}
+
+.temperature-value p {
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value span {
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temperature-description p {
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location p {
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.cookie {
+    margin: 20px 0 0 125px;
+}
+
+#setCookie {
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
