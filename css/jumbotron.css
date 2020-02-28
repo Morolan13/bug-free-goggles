@@ -10,7 +10,7 @@ body {
 }
 
 .jumbotron {
-    background-image: linear-gradient(to top right, rgb(179, 99, 9) , #900D15);
+    background-image: linear-gradient(to top right, #b36309 , #900D15);
     display: flex;
 }
 

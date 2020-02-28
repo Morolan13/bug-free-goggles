@@ -1,24 +1,79 @@
 .container {
-    width: 40%;
+	max-width: 40%;
 }
 
-.form-control {
-    background-color: transparent;
-    border: 1px solid rgb(153, 153, 153);
-    border-radius: 0;
-    color: rgb(153, 153, 153);
-    font-size: 12px;
-    font-weight: 500;
-    height: 50px;
-    border-radius: 5px;
-    letter-spacing: 0.1em;
-    padding-left: 10px;
-    margin: 0 0 25px 0;
-    line-height: 14px;
-    text-transform: uppercase;
-  }
-  
-  .form-control:focus {
-    box-shadow: none;
-    outline: 0 none;
-  }
+#contact {
+	background-image: linear-gradient(to bottom, #b1b1b1 , rgb(255, 255, 255));
+  padding:15px;
+  border-radius: 15px;
+}
+
+#contact h3 {
+	color: #b36309;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+  padding:10px;
+  border-radius: 10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:20%;
+	border:none;
+	background-image: linear-gradient(to top left, rgb(145, 80, 7) , #900D15);
+	color:#FFF;
+	border-radius: 10px;
+	padding:10px;
+  font-size:15px;
+}
+
+#contact button:hover {
+	background-image: linear-gradient(to top left, #d67200 , #d3000e);
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button:active { 
+  box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+
