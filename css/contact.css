@@ -1,5 +1,5 @@
 .container {
-	max-width: 40%;
+	max-width: 400px;
 }
 
 #contact {
@@ -9,16 +9,10 @@
 }
 
 #contact h3 {
-	color: #b36309;
+	color: #212529;
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
-}
-
-#contact h4 {
-	margin:5px 0 15px;
-	display:block;
-	font-size:13px;
 }
 
 fieldset {
@@ -76,4 +70,3 @@ fieldset {
 	outline:0;
 	border:1px solid #999;
 }
-
